@@ -1,4 +1,5 @@
-.fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
+.sizeimg {
+  min-width: 550px;
+  max-width: 900px;
+  background: #aaa;
+}
