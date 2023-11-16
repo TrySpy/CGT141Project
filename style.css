@@ -3,3 +3,18 @@
   max-width: 900px;
   background: #aaa;
 }
+.navtitlesize {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25pt;
+}
+.nav-link {
+  color: #bababa;
+}
+.active {
+  color: #fff;
+  font-weight: 600;
+}
+.navbar {
+  background-color: #141E1F !important;
+  border: #141E1F !important;
+}
