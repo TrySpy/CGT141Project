@@ -3,6 +3,10 @@
   max-width: 900px;
   background: #aaa;
 }
+.sizeplayerimg {
+  min-width: 150px;
+  max-width: 400px;
+}
 .navtitlesize {
   font-family: 'Times New Roman', Times, serif;
   font-size: 25pt;
