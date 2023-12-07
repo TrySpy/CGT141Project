@@ -18,3 +18,8 @@
   background-color: #141E1F !important;
   border: #141E1F !important;
 }
+/*Yes, these are identical classes. No, they do not do the same thing. Yes, your eyes decieve you. Don't believe me? Swap 'em.*/
+.colorDark {
+  background-color: #141E1F !important;
+  border: #141E1F !important;
+}
