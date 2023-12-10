@@ -44,14 +44,21 @@
 <div class="d-flex flex-lg-row justify-content-center align-items-center pt-5 p-2 mt-5 mx-5">
   <div class="card p-2 mx-2" style="max-width: 85rem; min-width: 22rem;">
     <form action="includes/formhandler.php" method="post">
-      <label for="nameinput" class="form-label">Name</label>
-      <input name="name" type="text" class="form-control" id="nameinput" placeholder="John Doe">
+      <label for="nameinput" class="form-label">First Name</label>
+      <input name="fname" type="text" class="form-control" id="nameinput" placeholder="John">
 
+      <label for="nameinput1" class="form-label">Last Name</label>
+      <input name="lname" type="text" class="form-control" id="nameinput" placeholder="Doe">
+      
       <label for="emailinput" class="form-label">Email Address</label>
       <input name="email" type="email" class="form-control" id="emailinput" placeholder="name@example.com">
+      
+      <label for="nameinput" class="form-label">Sex</label>
+      <input name="sex" type="text" class="form-control" id="nameinput" placeholder="Male/Female/Dobby">
 
       <label for="messageinput" class="form-label">Message</label>
       <textarea name="message" type="text" class="form-control" id="messageinput" rows="3" placeholder="Message..."></textarea>
+
       <div class="text-center"><button type="submit">Submit</button></div>
     </form>
   </div>
