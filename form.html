@@ -34,7 +34,7 @@
           <a class="nav-link" href="merch.html">Merch</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="form.html">Apply</a>
+          <a class="nav-link active" href="form.html">Contact</a>
         </li>
       </ul>
     </div>
@@ -43,8 +43,17 @@
 
 <div class="d-flex flex-lg-row justify-content-center align-items-center pt-5 p-2 mt-5 mx-5">
   <div class="card p-2 mx-2" style="max-width: 85rem; min-width: 22rem;">
-    <h5 class="card-text text-center">temptext <br>this will be a form eventually
-    </h5>  
+    <form action="includes/formhandler.php" method="post">
+      <label for="nameinput" class="form-label">Name</label>
+      <input name="name" type="text" class="form-control" id="nameinput" placeholder="John Doe">
+
+      <label for="emailinput" class="form-label">Email Address</label>
+      <input name="email" type="email" class="form-control" id="emailinput" placeholder="name@example.com">
+
+      <label for="messageinput" class="form-label">Message</label>
+      <textarea name="message" type="text" class="form-control" id="messageinput" rows="3" placeholder="Message..."></textarea>
+      <div class="text-center"><button type="submit">Submit</button></div>
+    </form>
   </div>
 </div>
 
