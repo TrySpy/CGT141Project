@@ -1,0 +1,29 @@
+.sizeimg {
+  min-width: 550px;
+  max-width: 900px;
+  background: #aaa;
+}
+.sizeplayerimg {
+  min-width: 150px;
+  max-width: 400px;
+}
+.navtitlesize {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25pt;
+}
+.nav-link {
+  color: #bababa;
+}
+.active {
+  color: #fff;
+  font-weight: 600;
+}
+.navbar {
+  background-color: #141E1F !important;
+  border: #141E1F !important;
+}
+/*Yes, these are identical classes. No, they do not do the same thing. Yes, your eyes decieve you. Don't believe me? Swap 'em.*/
+.colorDark {
+  background-color: #141E1F !important;
+  border: #141E1F !important;
+}
